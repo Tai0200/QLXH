@@ -1,0 +1,198 @@
+.sider-custom {
+    background: #ffffff !important;
+    box-shadow: 0px 4px 6px rgba(219, 219, 219, 0.5);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .logo {
+    padding: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .logo img {
+    max-width: 120px;
+  }
+  
+  .sider-menu {
+    flex-grow: 1;
+    background: #ffffff !important;
+    border-right: 0 !important;
+  }
+  
+  .sider-menu .ant-menu-item {
+    margin: 0 !important;
+    width: 100% !important;
+    border-radius: 0;
+    padding-left: 24px !important;
+  }
+  
+  .sider-menu .ant-menu-item-selected {
+    background-color: #ff9138 !important;
+    color: white !important;
+  }
+  
+  .sider-menu .ant-menu-item-selected .ant-menu-item-icon,
+  .sider-menu .ant-menu-item-selected a {
+    color: white !important;
+  }
+
+  .sider-menu .ant-menu-submenu-title {
+    margin: 0 !important;
+    width: 100% !important;
+    border-radius: 0;
+    padding-left: 24px !important;
+  }
+
+  .sider-menu .ant-menu-submenu-selected > .ant-menu-submenu-title {
+    background-color: #ff9138 !important;
+    color: white !important;
+  }
+
+  .sider-menu .ant-menu-submenu-selected > .ant-menu-submenu-title .ant-menu-item-icon,
+  .sider-menu .ant-menu-submenu-selected > .ant-menu-submenu-title .ant-menu-submenu-arrow {
+    color: white !important;
+  }
+
+  .sider-menu .ant-menu-submenu .ant-menu-item {
+    padding-left: 48px !important;
+  }
+
+  .sider-menu .ant-menu-submenu .ant-menu-item-selected {
+    background-color: #ff9138 !important;
+    color: white !important;
+  }
+
+  .sider-menu .ant-menu-submenu .ant-menu-item-selected a {
+    color: white !important;
+  }
+  
+  .logout-button {
+    width: 176px;
+    height: 48px;
+    margin: 16px;
+    background-color: #fff2e7 !important;
+    border: none !important;
+    color: #ff9138 !important;
+    font-weight: 600;
+  }
+  
+  .logout-button .anticon {
+    margin-right: 8px;
+  }
+  
+
+  .header-custom {
+    background: transparent !important;
+    padding: 24px 24px 0 24px;
+    height: auto;
+    line-height: normal;
+  }
+  
+  .breadcrumb-active {
+    color: #ff9138 !important;
+    font-weight: bold;
+  }
+
+  .content-custom {
+    margin: 24px;
+  }
+  
+  .page-title {
+    color: #ff9138 !important;
+    font-weight: bold !important;
+    margin-bottom: 16px !important;
+  }
+  
+ 
+  .ant-select-selector, .ant-input-affix-wrapper {
+    border-radius: 8px !important;
+  }
+  
+
+  .add-device-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 110px;
+    background-color: #fff2e7 !important;
+    border: none !important;
+    border-radius: 8px !important;
+    padding: 12px 8px;
+    color: #ff9138 !important;
+    font-weight: 600;
+    text-align: center;
+    white-space: normal;
+    line-height: 1.2;
+  }
+  
+  .add-icon-wrapper {
+    background-color: #ff9138;
+    color: white;
+    border-radius: 4px;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+  }
+ 
+  .device-table .ant-table {
+    border-radius: 12px;
+    box-shadow: 0px 2px 6px rgba(219, 219, 219, 0.5);
+    overflow: hidden;
+  }
+  
+  .device-table .ant-table-thead > tr > th {
+    background-color: #ff9138 !important;
+    color: white !important;
+    font-weight: bold;
+  }
+  
+  .device-table .ant-table-tbody > tr:nth-child(odd) > td {
+    background-color: #fff2e7;
+  }
+  
+  .device-table .ant-table-tbody > tr > td {
+    border-bottom: none;
+  }
+  
+  .device-table .ant-table-tbody > tr.ant-table-row:hover > td {
+    background: #ffe9d7;
+  }
+  
+
+  .ant-badge-status-dot {
+    width: 8px;
+    height: 8px;
+  }
+  
+  /* Pagination */
+  .ant-pagination {
+    justify-content: flex-end;
+    display: flex;
+    margin-top: 24px;
+  }
+  
+  .ant-pagination-item {
+    border-radius: 4px;
+    border: none;
+    background-color: #f0f2f5;
+  }
+  
+  .ant-pagination-item-active {
+    background-color: #ff9138 !important;
+  }
+  
+  .ant-pagination-item-active a {
+    color: white !important;
+  }
+  
+  .ant-pagination-prev .ant-pagination-item-link,
+  .ant-pagination-next .ant-pagination-item-link {
+    border: none;
+  }

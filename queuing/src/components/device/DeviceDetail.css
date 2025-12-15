@@ -1,0 +1,85 @@
+.device-detail-container {
+  width: 100%;
+}
+
+.device-detail-card {
+  border-radius: 12px;
+  box-shadow: 0px 2px 6px rgba(219, 219, 219, 0.5);
+  width: 100%;
+}
+
+.device-detail-card .ant-card-body {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0px 2px 6px rgba(219, 219, 219, 0.5);
+}
+
+.section-title {
+  color: #FF9138 !important;
+  font-weight: 700 !important;
+  margin-bottom: 24px !important;
+  font-size: 20px !important;
+}
+
+.device-descriptions {
+  margin-bottom: 0;
+}
+
+.device-descriptions.full-width {
+  margin-top: 8px;
+}
+
+.device-descriptions .ant-descriptions-item-label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #282739;
+  width: 150px;
+}
+
+.device-descriptions .ant-descriptions-item-content {
+  font-size: 16px;
+  color: #535261;
+  font-weight: 400;
+}
+
+.detail-value {
+  font-size: 16px;
+  color: #535261;
+  font-weight: 400;
+}
+
+.update-device-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 130px;
+  background-color: #fff2e7 !important;
+  border: none !important;
+  border-radius: 8px;
+  padding: 12px 8px;
+  color: #ff9138 !important;
+  font-weight: 600;
+  text-align: center;
+  white-space: normal;
+  line-height: 1.2;
+}
+
+.update-device-button:hover {
+  background-color: #ffe9d7 !important;
+}
+
+.update-icon-wrapper {
+  background-color: #ff9138;
+  color: white;
+  border-radius: 4px;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+

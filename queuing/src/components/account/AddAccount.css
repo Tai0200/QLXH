@@ -1,0 +1,123 @@
+.add-account-container {
+  width: 100%;
+}
+
+.page-title {
+  color: #ff9138;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.add-account-card {
+  border-radius: 12px;
+  box-shadow: 0px 2px 6px rgba(219, 219, 219, 0.5);
+  border: 1px solid #E4E4E7;
+  margin-top: 24px;
+}
+
+.add-account-card .ant-card-body {
+  padding: 32px;
+}
+
+.section-title {
+  color: #ff9138;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.add-account-form .ant-form-item-label > label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #282739;
+}
+
+.add-account-form .ant-input,
+.add-account-form .ant-input-affix-wrapper,
+.add-account-form .ant-select-selector {
+  height: 44px;
+  border-radius: 8px;
+  border: 1.5px solid #D4D4D7;
+  font-size: 16px;
+}
+
+.add-account-form .ant-input:hover,
+.add-account-form .ant-input-affix-wrapper:hover,
+.add-account-form .ant-select:hover .ant-select-selector {
+  border-color: #FF9138 !important;
+}
+
+.add-account-form .ant-input:focus,
+.add-account-form .ant-input-affix-wrapper-focused,
+.add-account-form .ant-select-focused .ant-select-selector {
+  border-color: #FF9138 !important;
+  box-shadow: 0 0 0 2px rgba(255, 145, 56, 0.1) !important;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.cancel-button {
+  width: 147px;
+  height: 48px;
+  border-radius: 8px;
+  border: 1.5px solid #FF9138;
+  background-color: #ffffff;
+  color: #FF9138;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.cancel-button:hover {
+  background-color: #fff2e7;
+  border-color: #FF9138;
+  color: #FF9138;
+}
+
+.submit-button {
+  width: 147px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: #FF9138;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.submit-button:hover {
+  background-color: #ff7506;
+}
+
+.back-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 110px;
+  background-color: #fff2e7 !important;
+  border: none !important;
+  border-radius: 8px !important;
+  padding: 12px 8px;
+  color: #ff9138 !important;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  white-space: normal;
+  line-height: 1.4;
+  transition: all 0.3s ease;
+  box-shadow: 0px 2px 6px rgba(219, 219, 219, 0.3);
+}
+
+.back-button:hover {
+  background-color: #ffe9d7 !important;
+  transform: translateY(-2px);
+  box-shadow: 0px 4px 8px rgba(255, 145, 56, 0.2);
+}
+

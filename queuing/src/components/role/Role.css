@@ -1,0 +1,189 @@
+.role-container {
+  width: 100%;
+}
+
+.page-title {
+  color: #ff9138;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.role-filters {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.filter-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.filter-label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #282739;
+}
+
+.search-input {
+  width: 300px;
+  height: 44px;
+  border-radius: 8px;
+  border: 1.5px solid #D4D4D7;
+  font-size: 16px;
+}
+
+.search-input:hover {
+  border-color: #FF9138 !important;
+}
+
+.search-input:focus,
+.search-input.ant-input-focused {
+  border-color: #FF9138 !important;
+  box-shadow: 0 0 0 2px rgba(255, 145, 56, 0.1) !important;
+}
+
+/* Table styling */
+.role-table {
+  margin-top: 0;
+}
+
+.role-table .ant-table {
+  border-radius: 12px;
+  box-shadow: 0px 2px 6px rgba(219, 219, 219, 0.5);
+  overflow: hidden;
+  border: 1px solid #E4E4E7;
+}
+
+.role-table .ant-table-thead > tr > th {
+  background-color: #ff9138 !important;
+  color: white !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  padding: 16px !important;
+  border: none !important;
+  text-align: left !important;
+}
+
+.role-table .ant-table-tbody > tr > td {
+  border-bottom: 1px solid #E4E4E7;
+  padding: 16px !important;
+  font-size: 16px;
+  color: #535261;
+  background-color: #ffffff;
+}
+
+.role-table .ant-table-tbody > tr:hover > td {
+  background-color: #fff2e7 !important;
+}
+
+.role-table .ant-table-tbody > tr:last-child > td {
+  border-bottom: none;
+}
+
+.role-table .ant-table-tbody > tr > td:last-child a {
+  color: #4277ff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.role-table .ant-table-tbody > tr > td:last-child a:hover {
+  color: #1890ff;
+}
+
+/* Add button */
+.add-role-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 110px;
+  background-color: #fff2e7 !important;
+  border: none !important;
+  border-radius: 8px !important;
+  padding: 12px 8px;
+  color: #ff9138 !important;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  white-space: normal;
+  line-height: 1.4;
+  transition: all 0.3s ease;
+  box-shadow: 0px 2px 6px rgba(219, 219, 219, 0.3);
+}
+
+.add-role-button:hover {
+  background-color: #ffe9d7 !important;
+  transform: translateY(-2px);
+  box-shadow: 0px 4px 8px rgba(255, 145, 56, 0.2);
+}
+
+.add-role-button .anticon {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+/* Pagination styling */
+.role-table .ant-pagination {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.role-table .ant-pagination-item {
+  border-radius: 4px;
+  border: 1px solid #D4D4D7;
+  min-width: 32px;
+  height: 32px;
+  line-height: 30px;
+  margin: 0 4px;
+}
+
+.role-table .ant-pagination-item a {
+  color: #535261;
+  font-size: 16px;
+}
+
+.role-table .ant-pagination-item-active {
+  background-color: #ff9138 !important;
+  border-color: #ff9138 !important;
+}
+
+.role-table .ant-pagination-item-active a {
+  color: #ffffff !important;
+  font-weight: 600;
+}
+
+.role-table .ant-pagination-item:hover {
+  border-color: #ff9138;
+}
+
+.role-table .ant-pagination-item:hover a {
+  color: #ff9138;
+}
+
+.role-table .ant-pagination-prev,
+.role-table .ant-pagination-next {
+  border-radius: 4px;
+  border: 1px solid #D4D4D7;
+  min-width: 32px;
+  height: 32px;
+  line-height: 30px;
+}
+
+.role-table .ant-pagination-prev:hover .ant-pagination-item-link,
+.role-table .ant-pagination-next:hover .ant-pagination-item-link {
+  border-color: #ff9138;
+  color: #ff9138;
+}
+
+.role-table .ant-pagination-item-link {
+  border: none;
+  color: #535261;
+}
+

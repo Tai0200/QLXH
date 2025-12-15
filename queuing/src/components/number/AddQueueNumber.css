@@ -1,0 +1,125 @@
+.add-queue-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+}
+
+.add-queue-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 48px;
+  box-shadow: 0px 2px 6px rgba(219, 219, 219, 0.5);
+  border: 1px solid #E4E4E7;
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.form-title {
+  color: #FF9138 !important;
+  font-weight: 700 !important;
+  font-size: 32px !important;
+  margin-bottom: 16px !important;
+  text-align: center;
+}
+
+.form-instruction {
+  display: block;
+  font-size: 18px;
+  color: #535261;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.add-queue-form {
+  margin-top: 24px;
+}
+
+.add-queue-form .ant-form-item-label > label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #282739;
+  text-align: left;
+}
+
+.service-select {
+  width: 100%;
+  height: 44px;
+  border-radius: 8px;
+  border: 1.5px solid #D4D4D7;
+  font-size: 16px;
+}
+
+.service-select:hover {
+  border-color: #FF9138 !important;
+}
+
+.service-select:focus,
+.service-select-focused {
+  border-color: #FF9138 !important;
+  box-shadow: 0 0 0 2px rgba(255, 145, 56, 0.1) !important;
+}
+
+.service-select .ant-select-selector {
+  border-radius: 8px !important;
+  border: 1.5px solid #D4D4D7 !important;
+  height: 44px !important;
+}
+
+.service-select .ant-select-selector:hover {
+  border-color: #FF9138 !important;
+}
+
+.service-select.ant-select-focused .ant-select-selector {
+  border-color: #FF9138 !important;
+  box-shadow: 0 0 0 2px rgba(255, 145, 56, 0.1) !important;
+}
+
+.form-buttons {
+  margin-top: 48px;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.cancel-button {
+  width: 147px;
+  height: 48px;
+  border: 1.5px solid #FF9138 !important;
+  border-radius: 8px;
+  color: #FF9138 !important;
+  font-weight: 700;
+  font-size: 16px;
+  background: transparent !important;
+}
+
+.cancel-button:hover {
+  background: #fff2e7 !important;
+  border-color: #FF9138 !important;
+  color: #FF9138 !important;
+}
+
+.print-button {
+  width: 147px;
+  height: 48px;
+  background: #FF9138 !important;
+  border: none !important;
+  border-radius: 8px;
+  color: #ffffff !important;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.print-button:hover {
+  background: #ff7506 !important;
+}
+
+.print-button:disabled {
+  background: #D4D4D7 !important;
+  color: #A9A9B0 !important;
+  cursor: not-allowed;
+}
+

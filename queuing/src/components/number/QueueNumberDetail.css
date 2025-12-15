@@ -1,0 +1,92 @@
+.queue-number-detail-container {
+  width: 100%;
+}
+
+.queue-detail-card {
+  border-radius: 12px;
+  box-shadow: 0px 2px 6px rgba(219, 219, 219, 0.5);
+  border: 1px solid #E4E4E7;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+.queue-detail-card .ant-card-body {
+  padding: 32px;
+  background: #ffffff;
+  border-radius: 12px;
+}
+
+.section-title {
+  color: #FF9138 !important;
+  font-weight: 700 !important;
+  margin-bottom: 32px !important;
+  font-size: 20px !important;
+  line-height: 1.4;
+}
+
+.queue-descriptions {
+  margin-top: 0;
+}
+
+.queue-descriptions .ant-descriptions-item {
+  padding-bottom: 20px;
+  margin-bottom: 8px;
+}
+
+.queue-descriptions .ant-descriptions-item-label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #282739;
+  width: 40%;
+  padding-right: 16px;
+}
+
+.queue-descriptions .ant-descriptions-item-content {
+  font-size: 16px;
+  color: #535261;
+  font-weight: 400;
+}
+
+.detail-value {
+  font-size: 16px;
+  color: #535261;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.back-button {
+  height: 48px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+  border: 1.5px solid #D4D4D7 !important;
+  color: #535261 !important;
+  background: #ffffff !important;
+}
+
+.back-button:hover {
+  background: #f5f5f5 !important;
+  border-color: #A9A9B0 !important;
+  color: #282739 !important;
+  transform: translateY(-2px);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Badge styling */
+.queue-descriptions .ant-badge-status-dot {
+  width: 8px;
+  height: 8px;
+}
+
+.queue-descriptions .ant-badge-status-text {
+  font-size: 16px;
+  color: #535261;
+  margin-left: 8px;
+}
+

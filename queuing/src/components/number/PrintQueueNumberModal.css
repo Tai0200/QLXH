@@ -1,0 +1,89 @@
+.print-queue-modal .ant-modal-content {
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 0;
+}
+
+.print-queue-modal .ant-modal-body {
+  padding: 0;
+}
+
+.print-modal-content {
+  position: relative;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 32px;
+  text-align: center;
+}
+
+.close-icon {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  font-size: 20px;
+  color: #FF9138;
+  cursor: pointer;
+  z-index: 10;
+  transition: color 0.2s ease;
+}
+
+.close-icon:hover {
+  color: #ff7506;
+}
+
+.modal-title {
+  color: #282739 !important;
+  font-weight: 700 !important;
+  font-size: 24px !important;
+  margin-bottom: 24px !important;
+  text-align: center;
+}
+
+.queue-number-display {
+  font-size: 56px;
+  font-weight: 700;
+  color: #FF9138;
+  margin: 24px 0;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.service-info {
+  display: block;
+  font-size: 18px;
+  color: #535261;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.modal-footer {
+  background: #FF9138;
+  margin: 0 -32px -32px -32px;
+  padding: 24px 32px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.footer-item {
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+.footer-item:last-child {
+  margin-bottom: 0;
+}
+
+.footer-label {
+  display: block;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 4px;
+}
+
+.footer-value {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
